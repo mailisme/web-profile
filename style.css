@@ -5,13 +5,14 @@ body{
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(to right, black, rgb(73, 73, 73));
 }
 
 h1{
     font-size: 19.5vw;
-    color: aqua;
+    color: white;
     text-align: center;
+    text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua, 0 0 50px ;
 }
 h2{
     color: aquamarine;
