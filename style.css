@@ -1,6 +1,5 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body{
-  /* 先套用 Noto Sans TC 這個 思源黑體 */
   font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
 }
 
@@ -9,7 +8,7 @@ body{
 }
 
 h1{
-    font-size: 19.5vw;
+    font-size: 20vw;
     color: white;
     text-align: center;
     text-shadow: 0 0 10px aqua, 0 0 20px aqua, 0 0 30px aqua, 0 0 40px aqua, 0 0 50px ;
@@ -46,6 +45,8 @@ p{
 }
 h6{
     color: white;
+    text-align: center;
+    font-size: medium;
 }
 .dc_server{
     float: right;
@@ -57,4 +58,38 @@ h6{
 }
 .mc_dc{
     color: aqua;
+}
+.btn,
+.btn:focus {
+    position: relative;
+    min-width: 200px;
+    background: transparent;
+    color: aqua;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-sizing: inherit;
+    padding: 10px 20px;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(225, 51, 45, 0);
+    outline: 1px solid !important;
+    outline-color: aquamarine;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.btn:hover {
+    color: aqua;
+    border: 1px solid;
+    box-shadow: inset 0 0 20px aquamarine(225, 51, 45, 0.5), 0 0 20px aquamarine(225, 51, 45, 0.2);
+    outline: 1px solid !important;
+    outline-color: rgba(225, 51, 45, 0) !important;
+    outline-offset: 15px;
+    text-shadow: 1px 1px 2px #427388;
+}
+
+h5{
+    color: white;
+    font-size: x-small;
 }
